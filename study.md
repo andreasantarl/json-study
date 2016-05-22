@@ -38,7 +38,14 @@ As it makes sense to you please write the following in JSON format:
 - Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+{
+  "Jason": {
+    "cat": "Mr. Kitty",
+    "rommate": ["Dave", "Miller"],
+    "sportsTeams": ["Red Sox", "Patriots", "Bruins"],
+    "addresses": ["123 Fake street", "2 Muchinfo Road"]
+  }
+}
 ```
 
 ...I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +53,23 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+{
+  "Jason": {
+    "cat": "Mr. Kitty",
+    "rommate": ["Dave", "Miller"],
+    "sportsTeams": ["Red Sox", "Patriots", "Bruins"],
+    "addresses": ["123 Fake street", "2 Muchinfo Road"],
+    "fish": {
+      "Bob": {
+          "color": "red"
+        },
+      "Mr.MagicNibbles": {
+        "color": "yellow",
+        "characteristic": "bites a bit"
+      }
+    }
+  }
+}
 ```
 
 ## JSON Methods
@@ -54,7 +77,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+I don't understand the syntax of this question- it's ambiguous to me whether you're asking that I write a method to process the JSON or add a method within the JSON data.  Can you pass methods as a string via JSON?  Sure, why not.  If your question is asking to write a method to parse the JSON data, sure, you can.  JSON data does not actually execute any methods, though, because it is simply a string.
 ```
 
 ## JSON Comments
@@ -62,5 +85,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+You cannot write comments in JSON.
 ```
